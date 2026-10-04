@@ -1,0 +1,73 @@
+.message-reactions {
+    position: absolute;
+
+    bottom: -11px;
+
+    right: 8px;
+
+    z-index: 5;
+
+    display: flex;
+    align-items: center;
+
+    gap: 3px;
+}
+
+.message-row-other
+.message-reactions {
+    left: 8px;
+
+    right: auto;
+}
+
+.message-reaction {
+    min-width: 25px;
+    height: 21px;
+
+    padding: 0 5px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 2px;
+
+    border-radius: 11px;
+
+    background:
+        #252e3c;
+
+    border:
+        1px solid
+        rgba(255, 255, 255, 0.08);
+
+    box-shadow:
+        0 4px 10px
+        rgba(0, 0, 0, 0.22);
+
+    font-size: 11px;
+}
+
+.reaction-emoji {
+    line-height: 1;
+}
+
+.reaction-count {
+    color: #b8c1cf;
+
+    font-size: 8px;
+
+    font-weight: 600;
+}
+
+.message-reaction.my-reaction {
+    background:
+        #343f58;
+
+    border-color:
+        rgba(102, 145, 255, 0.35);
+
+    box-shadow:
+        0 0 0 1px
+        rgba(102, 145, 255, 0.08);
+}

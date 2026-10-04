@@ -1,0 +1,40 @@
+.read-tick {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 5px;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 9px;
+
+    font-weight: 800;
+
+    line-height: 1;
+
+    letter-spacing: -1px;
+
+    vertical-align: middle;
+
+    /* Important: don't inherit faded message opacity */
+    opacity: 1 !important;
+}
+
+
+/* SENT / UNREAD */
+
+.read-tick-unread {
+    color: #d9e1f2 !important;
+
+    opacity: 1 !important;
+}
+
+
+/* READ */
+
+.read-tick-read {
+    color: #38f2a5 !important;
+    opacity: 1 !important;
+}

@@ -1,0 +1,96 @@
+/* =========================================
+   REACTION PICKER
+========================================= */
+
+.reaction-picker {
+    position: absolute;
+
+    left: 50%;
+    bottom: calc(100% + 10px);
+
+    transform: translateX(-50%);
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    padding: 8px 10px;
+
+    background: #172235;
+
+    border: 1px solid rgba(255, 255, 255, 0.10);
+
+    border-radius: 14px;
+
+    box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.40);
+
+    z-index: 100;
+
+    animation: reactionPickerShow 0.15s ease;
+}
+
+
+/* =========================================
+   EMOJI BUTTON
+========================================= */
+
+.reaction-option {
+    width: 34px;
+    height: 34px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+
+    border: none;
+    border-radius: 10px;
+
+    background: transparent;
+
+    font-size: 19px;
+    line-height: 1;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.16s ease,
+        background 0.16s ease;
+}
+
+
+.reaction-option:hover {
+    background: rgba(255, 255, 255, 0.10);
+
+    transform:
+        translateY(-3px)
+        scale(1.12);
+}
+
+
+/* =========================================
+   REACTION PICKER ANIMATION
+========================================= */
+
+@keyframes reactionPickerShow {
+
+    from {
+        opacity: 0;
+
+        transform:
+            translateX(-50%)
+            translateY(6px)
+            scale(0.94);
+    }
+
+    to {
+        opacity: 1;
+
+        transform:
+            translateX(-50%)
+            translateY(0)
+            scale(1);
+    }
+}
