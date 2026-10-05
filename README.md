@@ -1,10 +1,17 @@
 # 💬 Bubble Meet — Real-Time Chat Application
+
 <img width="1917" height="911" alt="Screenshot 2026-10-04 232302" src="https://github.com/user-attachments/assets/06bfaeec-9b04-4571-87ec-692e32ebafa0" />
+
 
 
 Bubble Meet is a **real-time chat application** built with modern web technologies. It allows users to communicate instantly through a clean and responsive interface with real-time message delivery.
 
+## 🌐 Live Demo
+
+click on This Link - https://bubble-meet-real-time-chat.vercel.app/
+
 The project is designed as a full-stack application to demonstrate **React.js, Node.js, Express.js, MongoDB, REST APIs, authentication, and real-time communication**.
+
 <img width="1876" height="891" alt="Screenshot 2026-10-04 232314" src="https://github.com/user-attachments/assets/46766ba5-4bc9-41d2-9611-27d059a4c9a8" />
 
 ## 🚀 Features
@@ -256,27 +263,7 @@ The project follows basic web application security practices such as:
 * Authentication middleware
 * CORS configuration
 
-## 📸 Screenshots
 
-Add screenshots of your application here after completing the UI.
-
-Example:
-
-```text
-screenshots/
-├── login.png
-├── register.png
-├── dashboard.png
-└── chat.png
-```
-
-Then add them to the README:
-
-```markdown
-![Login Page](screenshots/login.png)
-
-![Chat Page](screenshots/chat.png)
-```
 
 ## 🌐 Live Demo
 
