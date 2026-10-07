@@ -10,7 +10,10 @@ const protect = require("../middleware/authMiddleware");
 const router = express.Router();
 
 
+// ==========================================
 // EDIT MESSAGE
+// ==========================================
+
 router.patch(
     "/:messageId",
     protect,
@@ -18,7 +21,10 @@ router.patch(
 );
 
 
+// ==========================================
 // DELETE MESSAGE
+// ==========================================
+
 router.delete(
     "/:messageId",
     protect,
