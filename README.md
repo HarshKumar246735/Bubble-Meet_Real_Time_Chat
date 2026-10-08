@@ -99,13 +99,13 @@ Bubble-Meet_Real-Time-Chat-Application/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/HarshKumar246735/Bubble-Meet_Real_Time_Chat_Application.git
+git clone https://github.com/HarshKumar246735/Bubble-Meet_Real_Time_Chat.git
 ```
 
 Navigate into the project:
 
 ```bash
-cd Bubble-Meet_Real_Time_Chat_Application
+cd Bubble-Meet_Real_Time_Chat
 ```
 
 ## 2. Install Dependencies
